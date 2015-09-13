@@ -28,6 +28,9 @@ git reset HEAD~1
 git checkout -- poem.md
 
 ####¿Qué comando o comandos utilizaste en el paso 29?
+git branch -D title
+
 ####¿Qué comando o comandos utilizaste en el paso 30?
+
 ####¿Qué comando o comandos usaste en el paso 32?
 ####¿Qué comando o comandos usaste en el punto 33?
