@@ -31,6 +31,11 @@ git checkout -- poem.md
 git branch -D title
 
 ####¿Qué comando o comandos utilizaste en el paso 30?
+git checkout 6693affb0ea7bb4b253a7d3d55694a19cae73a2d
+git branch title
+git checkout master
+git merge title --no-ff
 
 ####¿Qué comando o comandos usaste en el paso 32?
+
 ####¿Qué comando o comandos usaste en el punto 33?
