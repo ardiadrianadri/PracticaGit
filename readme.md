@@ -7,19 +7,22 @@ La acción era volver a la versión anterior después de realizar un commit. Par
 Al moverme al nodo anterior he perdido de vista el nodo donde habia realizado los cambios de los colores a hexadecimal, así que, con la instrucción "git reflog" liste los commits realizados en el repositorio. Se que el nodo que contiene la version del poema que busco es el nodo anterior a la instruccion del reset. En mi caso, dicho nodo es el "d686153". Sabiendo esto, solo tengo que realizar un reset a dicho nodo: "git reset --hard d686153"
 
 ####El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
-No causo ningún conflicto porque el fichero poem.md de la rama master no habia sido modificado en ningún momento. Además, la rama htmlify contenia el trabajo de la rama master
+No causo ningún conflicto porque el fichero poem.md de la rama master no habia sido modificado en ningún momento
 
 ####El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
 Si que hubo conflictos en este caso. El problema reside en que, mientras en la rama matrix, las palabras red y violet se habian cambiado por las frases "red pills" y "blue pills" respectivamente, en la rama htmlify, estas mismas palabras tenian dos valores en hexadecimal.
 
 ####El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
-No, no causo ningun conflicto por la misma razón que la pregunta sobre el paso 13, htmlify ya contenia el trabajo de master
+No, no causo ningun conflicto porque en la rama master no se habia modificado el poema en las mismas lineas en que se habia modificado la rama htmlify
 
 ####¿Qué comando o comandos utilizaste en el paso 25?
 Bueno... yo uso el alias de sg (super graph) que contiene la siguiente instruccion "log --graph --all --decorate"
 
 ####El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
+Si porque no se habia evolucionado la rama master en ningun sentido despues de la creación de title. En otras palabras: La rama title contenia el trabajo de la rama master
+
 ####¿Qué comando o comandos utilizaste en el paso 27?
+
 ####¿Qué comando o comandos utilizaste en el paso 28?
 ####¿Qué comando o comandos utilizaste en el paso 29?
 ####¿Qué comando o comandos utilizaste en el paso 30?
