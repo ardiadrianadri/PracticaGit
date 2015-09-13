@@ -1,7 +1,6 @@
-
-
-####¿Qué comando utilizaste en el paso 11? 
+####¿Qué comando utilizaste en el paso 11?
 git reset --hard HEAD~1
+
 ####¿Por qué?
 La acción era volver a la versión anterior después de realizar un commit. Para ello, simplemente habia que mover el puntero HEAD un nodo atras del que me encontraba en ese momento. Para mover el puntero HEAD se utiliza la instrucción reset de git. Para indicar que solamente quiero moverme un nodo atras del actual se utiliza la nomenclatura HEAD~1. La opción --hard es para que me actualize el work area.
 
@@ -34,15 +33,20 @@ git branch -D title
 
 ####¿Qué comando o comandos utilizaste en el paso 30?
 git checkout 6693affb0ea7bb4b253a7d3d55694a19cae73a2d
+
 git branch title
+
 git checkout master
+
 git merge title --no-ff
 
 ####¿Qué comando o comandos usaste en el paso 32?
 git sg
+
 git reset --hard 75d2069406df19fccc8f0b09985cd6644124c01b
 
 ####¿Qué comando o comandos usaste en el punto 33?
 git reflog
+
 git reset --hard bcf02d2
 
