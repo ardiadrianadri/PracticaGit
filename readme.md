@@ -1,3 +1,5 @@
+
+
 ####¿Qué comando utilizaste en el paso 11? 
 git reset --hard HEAD~1
 ####¿Por qué?
