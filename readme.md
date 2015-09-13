@@ -37,5 +37,7 @@ git checkout master
 git merge title --no-ff
 
 ####¿Qué comando o comandos usaste en el paso 32?
+git sg
+git reset --hard 75d2069406df19fccc8f0b09985cd6644124c01b
 
 ####¿Qué comando o comandos usaste en el punto 33?
