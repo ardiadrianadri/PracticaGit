@@ -16,6 +16,7 @@ Si que hubo conflictos en este caso. El problema reside en que, mientras en la r
 No, no causo ningun conflicto por la misma razón que la pregunta sobre el paso 13, htmlify ya contenia el trabajo de master
 
 ####¿Qué comando o comandos utilizaste en el paso 25?
+Bueno... yo uso el alias de sg (super graph) que contiene la siguiente instruccion "log --graph --all --decorate"
 
 ####El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
 ####¿Qué comando o comandos utilizaste en el paso 27?
