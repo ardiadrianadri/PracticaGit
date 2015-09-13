@@ -22,8 +22,11 @@ Bueno... yo uso el alias de sg (super graph) que contiene la siguiente instrucci
 Si porque no se habia evolucionado la rama master en ningun sentido despues de la creación de title. En otras palabras: La rama title contenia el trabajo de la rama master
 
 ####¿Qué comando o comandos utilizaste en el paso 27?
+git reset HEAD~1
 
 ####¿Qué comando o comandos utilizaste en el paso 28?
+git checkout -- poem.md
+
 ####¿Qué comando o comandos utilizaste en el paso 29?
 ####¿Qué comando o comandos utilizaste en el paso 30?
 ####¿Qué comando o comandos usaste en el paso 32?
