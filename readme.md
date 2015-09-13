@@ -41,3 +41,6 @@ git sg
 git reset --hard 75d2069406df19fccc8f0b09985cd6644124c01b
 
 ####¿Qué comando o comandos usaste en el punto 33?
+git reflog
+git reset --hard bcf02d2
+
