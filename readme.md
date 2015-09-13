@@ -13,7 +13,10 @@ No causo ningún conflicto porque el fichero poem.md de la rama master no habia 
 Si que hubo conflictos en este caso. El problema reside en que, mientras en la rama matrix, las palabras red y violet se habian cambiado por las frases "red pills" y "blue pills" respectivamente, en la rama htmlify, estas mismas palabras tenian dos valores en hexadecimal.
 
 ####El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
+No, no causo ningun conflicto por la misma razón que la pregunta sobre el paso 13, htmlify ya contenia el trabajo de master
+
 ####¿Qué comando o comandos utilizaste en el paso 25?
+
 ####El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
 ####¿Qué comando o comandos utilizaste en el paso 27?
 ####¿Qué comando o comandos utilizaste en el paso 28?
